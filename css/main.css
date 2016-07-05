@@ -1,0 +1,143 @@
+/* Navigation */
+.navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 10;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.navigation li {
+	display: inline;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+}
+
+.navigation li a {
+ 	display: inline-block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+.navigation ul {
+	margin: 0;
+	padding: 0;
+	margin-left: 0;
+    text-align: center;
+    overflow: hidden;
+    list-style-type: none;
+
+}
+
+.navigation li a:hover {
+    background-color: #e6ffff;
+}
+
+.container {
+    background-color:rgba(255,255,245,0.5); 
+    max-width: 975px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+/* How to Display Images */
+.photo {
+    width: 300px;
+    height: 200px;
+}
+
+.photo2 {
+    width: 305px;
+    height: 200px;
+}
+
+.wrapper { 
+    background-color:rgba(255,255,255,0.5); 
+    float: left; 
+    width: 305px; 
+    height: 320px; 
+    margin: 0px 20px 20px 0px; 
+}
+
+.albumphoto {
+    width: 405px;
+    height: 300px;
+}
+
+.albumphotowrapper { 
+    background-color:rgba(255,255,255,0.5); 
+    float: left; 
+    width: 405px; 
+    height: 400px; 
+    margin: 30px 20px 20px 30px; 
+}
+
+.searchwrapper { 
+    background-color:rgba(255,255,255,0.5); 
+    float: left; 
+    width: 405px; 
+    height: 300px; 
+    margin: 30px 20px 20px 30px; 
+}
+
+.imgphoto{
+    width: 700px;
+    height: 500px;
+    float: center;
+}
+
+/* How to Display albums*/
+.album {
+    border-style: solid;
+    border: 20px 
+    border-color: black;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 750px;
+    height: 200px;
+}
+
+.left {
+    text-align: center;
+    float: left;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.right {
+    float: left;
+    margin-left: 20px;
+    width: 430px;
+}
+
+.album_link {
+    text-decoration: none;
+    color: #66cccc;
+}
